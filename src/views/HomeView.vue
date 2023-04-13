@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Advise from '@/components/Advise.vue';
 import axios from 'axios'
-import { onUpdated, onMounted, reactive, ref } from 'vue';
+import { onUpdated,onMounted, reactive, ref } from 'vue';
 
 interface Advise {
   advice: string,
@@ -24,7 +24,7 @@ async function getAdvice() {
 
   })
 }
-onUpdated(() => {
+onMounted(() => {
   return { getAdvice, advice }
 })
 </script>
