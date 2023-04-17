@@ -17,8 +17,8 @@ module.exports = {
         'quote':'28px',
       },
       inset:{
-        'desktop':'36.5rem',
-        'mobile':'10rem'
+        'desktop':'36rem',
+        'mobile':'9.8rem'
       },
       boxShadow: {
         '3xl': '-1px 5px 40px -1px rgba(0, 0, 0, 0.3)',
