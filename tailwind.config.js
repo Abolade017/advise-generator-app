@@ -17,7 +17,7 @@ module.exports = {
         'quote':'28px',
       },
       inset:{
-        'desktop':'36rem',
+        'desktop':'24rem',
         'mobile':'9.8rem'
       },
       boxShadow: {

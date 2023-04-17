@@ -9,7 +9,7 @@ const adviceId = computed(() => { return 'Advice' + '  ' + `#${props.slip.id}` }
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl my-48 px-6">
+  <div class="mx-auto max-w-4xl my-48 px-6">
     <div class="bg-neutral-dark-grayish-blue rounded-xl relative">
       <h1 class="text-center uppercase text-neon-green pt-14 pb-8 tracking-widest ">{{ adviceId }}</h1>
       <p class="text-quote text-light-cyan text-center px-6 md:mx-40">{{ props.slip.advice }}</p>
